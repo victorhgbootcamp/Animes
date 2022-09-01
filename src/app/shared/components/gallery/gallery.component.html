@@ -1,0 +1,6 @@
+<div class="galeria" >
+    <div class="item" *ngFor="let item of list" routerLink="/animes/{{item.id}}">
+        <h2>{{item.attributes.canonicalTitle}}</h2>
+        <img src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+    </div>
+    </div>

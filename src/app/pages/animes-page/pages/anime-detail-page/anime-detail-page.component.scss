@@ -1,0 +1,23 @@
+.anime-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    div{
+        width: 50%;
+    }
+    
+}
+.anime-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 500px;
+    }
+}
+p{
+    font-size: 20px;
+}
